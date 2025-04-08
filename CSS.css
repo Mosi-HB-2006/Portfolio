@@ -41,6 +41,7 @@ html{
 }
 
 .header button{
+    cursor:pointer;
     font-family: 'JetBrains Mono';
     background-color:#5C7285;
     color:#A7B49E;
@@ -53,7 +54,8 @@ html{
     border-radius:15px;
     border:1px solid #5C7285;
     margin-left: 10%;
-    margin-top:-5%
+    margin-top:-5%;
+    transition:0.3s;
 }
 
 .body div{
@@ -67,6 +69,8 @@ html{
     padding-bottom:2%;
 }
 
+/*Buttons*/
+
 .option1{
     margin-top:3%;
 }
@@ -76,6 +80,8 @@ html{
 .option3{
     margin-top:3%;
 }
+
+/*Frame*/
 
 .border-frame {
     position: relative;
